@@ -8,11 +8,11 @@
 
 <script>
     export default {
-
+        name: 'BaseHeader',
     }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     header {
         background-color: #2e3a46;
         height: 80px;

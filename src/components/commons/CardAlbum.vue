@@ -1,0 +1,34 @@
+<template>
+    <div class="album">
+        <img :src="album.poster" :alt="album.author">
+        <h3>{{album.title}}</h3>
+        <h5>{{album.author}}</h5>
+        <p>{{album.year}}</p>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: 'CardCharacter',
+        props: {
+            album: Object,
+        }
+    }
+</script>
+
+<style lang="scss" scoped>
+    .album {
+        background-color: #2e3a46;
+        text-align: center;
+        img {
+            max-width: 100%;
+            padding: 20px 0;
+        }
+        h3, h5 {
+            color: #fff;
+        }
+        p {
+            color: lightgray;
+        }
+    }
+</style>

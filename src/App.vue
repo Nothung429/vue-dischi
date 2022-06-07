@@ -22,7 +22,5 @@ export default {
 </script>
 
 <style lang="scss">
-    @import 'assets/style/general.css';
+    @import "assets/style/general.scss";
 </style>
-
-// https://flynn.boolean.careers/exercises/api/array/music
