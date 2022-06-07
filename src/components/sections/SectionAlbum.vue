@@ -2,7 +2,7 @@
     <section>
         <div class="container">
             <div class="row py-5">
-                <CardAlbum class="col-6 col-lg-2 my-5" v-for="(album, index) in albums" :key="index" :album="album"/>
+                <CardAlbum class="col-6 col-lg-2 p-3" v-for="(album, index) in albums" :key="index" :album="album"/>
             </div>
         </div>
     </section>
@@ -40,7 +40,7 @@ import CardAlbum from '../commons/CardAlbum.vue';
         .container {
             .row {
                 justify-content: center;
-                gap: 10px;
+                gap: 20px;
             }
         }
     }
