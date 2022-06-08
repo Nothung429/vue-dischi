@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import SectionAlbum from '../sections/SectionAlbum.vue';
+    import SectionAlbum from '../sections/SectionAlbum.vue';
 
     export default {
         name: 'BaseMain',
@@ -16,8 +16,5 @@ import SectionAlbum from '../sections/SectionAlbum.vue';
 </script>
 
 <style lang="scss" scoped>
-    main {
-        height: 100vh;
-        background-color: #1e2d3b;
-    }
+
 </style>

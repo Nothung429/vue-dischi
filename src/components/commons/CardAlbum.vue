@@ -25,8 +25,10 @@
         }
         h3 {
             color: #fff;
+            font-size: 22px;
         }
         p, h5 {
+            font-size: 18px;
             color: lightgreen;
             margin: 0;
         }
